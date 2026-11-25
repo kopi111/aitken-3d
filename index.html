@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Aitken Technology</title>
+  <meta name="description" content="Aitken Technology builds websites, web apps and mobile apps. Drive around and see our work.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas class="webgl"></canvas>
+
+  <header class="brand">
+    <span class="brand-mark">A</span>
+    <span><strong>Aitken Technology</strong><small>Websites · Web apps · Mobile apps</small></span>
+  </header>
+
+  <button class="hint" data-hint hidden>
+    <span data-hint-title></span>
+    <span class="hint-key">Press <kbd>Enter</kbd> or tap to open</span>
+  </button>
+
+  <div class="panel-backdrop" data-panel hidden>
+    <article class="panel" role="dialog" aria-modal="true">
+      <button class="panel-close" data-close aria-label="Close">×</button>
+      <p class="panel-kind" data-kind></p>
+      <h2 data-title></h2>
+      <p data-summary></p>
+      <img data-image alt="" hidden>
+      <ul data-points></ul>
+      <a class="panel-link" data-link target="_blank" rel="noopener" hidden></a>
+    </article>
+  </div>
+
+  <div class="touch" data-touch hidden>
+    <div class="stick" data-stick><div class="knob" data-knob></div></div>
+    <button class="boost" data-boost>Boost</button>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

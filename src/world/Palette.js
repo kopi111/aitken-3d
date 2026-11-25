@@ -1,0 +1,16 @@
+export const PALETTE = {
+  floorTopLeft: '#1d2a44',
+  floorTopRight: '#24345a',
+  floorBottomLeft: '#2c3f6b',
+  floorBottomRight: '#3b5288',
+  gold: '#e8b53a',
+  goldDeep: '#b8841c',
+  cream: '#f4ead2',
+  ink: '#151b2b',
+  teal: '#2fb8a8',
+  coral: '#ef6f55',
+  sky: '#6fa8ff',
+  shadow: '#0b1222',
+  label: 'rgba(244, 234, 210, 0.92)',
+  labelDim: 'rgba(244, 234, 210, 0.55)',
+}
